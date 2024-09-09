@@ -9,15 +9,10 @@ export const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-				Varmistamme työnhakijasi täydellisen tyytyväisyyden.
+				Streamline your RFP Tender Process
             </h1>
             <p className="py-5 text-md leading-normal text-gray-500 lg:text-md xl:text-md dark:text-gray-300">
-              1. PauPau:n avulla rekisteröityneet työnhakijat löytävät yrityksesi<br></br>
-			  2. Kutsut parhaat työnhakijat haastatteluun <br></br>
-			  3. Maksamme työnhakijalle korvauksen työhaastatteluista puolestasi<br></br>
-			  4. Varmistamme, että yrityksesi saa arvokkaan palautteen työnhakuprosessista<br></br>
-
-			 	5. Tyytyväisyys myös heidän keskuudessaan joita ei valittu tehtävään<br></br>
+           With Kite RFP Tendering app you can streamline your tendering process.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -26,7 +21,7 @@ export const Hero = () => {
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-customLila rounded-md ">
-                Luo yritykselleni tunnus
+                Start using Kite
               </a>
               <a
                 href=""
@@ -34,7 +29,7 @@ export const Hero = () => {
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
            
-                <span>Minulla on jo tunnukset</span>
+                <span>I'm already a user</span>
               </a>
             </div>
           </div>
@@ -56,7 +51,7 @@ export const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Kymmenet yritykset luottavat <span className="text-customLila">meihin</span>{" "}
+            Numerous companies trust<span className="text-customLila"> Kite</span>
           </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">

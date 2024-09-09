@@ -13,37 +13,19 @@ export default function Home() {
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="Hyödyt PauPaun käytöstä pähkinänkuoressa"
-        title="Miksi yrityksesi kannattaa ottaa käyttöön PauPau"
+        preTitle="Kite for RFP"
+        title="Use Kite for your Tender process"
       >
-		PauPau:n avulla voit palkita työnhakijasi työhaastatteluihin osallistumisesta. Ottamalla käyttöön palvelumme parannat työnantajakuvaasi ja löydät motivoituneimmat työnhakijat.
-
+		
+With Kite you can do your RFP process.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      {/* <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
-      >
-               Työantajakuvan rakentaminen on tärkeää, jotta yrityksesi hyvä maine kiirii myös yrityksesi ulkopuolella. työnhakijoiden vaivannäön palkitseminen parantaa yrityksesi mainetta.
-
-      </SectionTitle> */}
-
-      {/* <Video videoId="fZ0D0cnR88E" /> */}
-
-      {/* <SectionTitle
-        preTitle="kommentit"
-        title="Käyttäjien kommentit palvelumme käytöstä"
-      >
-       Esimerkkejä PauPau:n käytöstä
-      </SectionTitle>
-
-      <Testimonials /> */}
-
-      <SectionTitle preTitle="FAQ" title="Usein kysytyt kysymykset">
-        PauPau on luotu parantamaan työnhakukokemusta. Haluamme varmistaa, että saat tarkat tiedot palvelun toiminnasta, ennen kuin aloitat käytön.
+    
+      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
+        Most asked Questions about Kite
       </SectionTitle>
 
       <Faq />

@@ -14,52 +14,52 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-	title: "Hyödyt yritykselle",
-	desc: "Täydellisen rekryn löytäminen on tärkeää, mutta PauPau:n avulla varmistat rekryprosessin kaikki hyödyt.",
+	title: "Ipsum lorem doloris maximus",
+	desc: "Ipsum lorem doloris maximus",
 	image: benefitOneImg,
 	bullets: [
 		{
-			title: "Rekisteröityneet työnhakijat",
-			desc: "Kun työnhakija ottaa PauPau:n käyttöön, tämä tunnistautuu.",
+			title: "Ipsum lorem doloris maximus",
+			desc: "Ipsum lorem doloris maximus",
 			icon: <FaceSmileIcon />,
 		},
 
 		{
-			title: "Rekryprosessin toimivuus",
-			desc: "Miellyttävämpi rekryprosessi sinulle ja työnhakijalle.",
+			title: "Ipsum lorem doloris maximus",
+			desc: "Ipsum lorem doloris maximus",
 			icon: <ChartBarSquareIcon />,
 		},
 		{
-			title: "Palaute työnhakuprosessista",
-			desc: "Palkittu työnhakija vastaa kyselyyn varmasti.",
+			title: "Ipsum lorem doloris maximus",
+			desc: "Ipsum lorem doloris maximus",
 			icon: <CursorArrowRaysIcon />,
 		},
 		{
-			title: "Parempi työnantajakuva",
-			desc: "Paranna yrityksesi työantajakuvaa myös heidän keskuudessaan, joita ei valittu tehtävään.",
+			title: "Ipsum lorem doloris maximus",
+			desc: "Ipsum lorem doloris maximus",
 			icon: <ChartBarSquareIcon />,
 		},
 	],
 };
 
 const benefitTwo = {
-	title: "Hyödyt PauPau:n käytöstä työnhakijalle",
-	desc: "Paras työnhakukokemus..",
+	title: "Ipsum lorem doloris maximus",
+	desc: "Ipsum lorem doloris maximus",
 	image: benefitTwoImg,
 	bullets: [
 		{
-			title: "Luo uskottava työnhakijaprofiili",
-			desc: "Rekisteröitymällä varmistat, että työnantaja huomaa motivaatiosi.",
+			title: "Ipsum lorem doloris maximus",
+			desc: "Ipsum lorem doloris maximus",
 			icon: <StarIcon />,
 		},
 		{
-			title: "Arvostetut työnantajat",
-			desc: "PauPau:n avulla löydät yritykset jotka arvostavat työnhakijoitaan vaikket tulisi valituksi tehtävään.",
+			title: "Ipsum lorem doloris maximus",
+			desc: "Ipsum lorem doloris maximus",
 			icon: <HandThumbUpIcon />,
 		},
 		{
-			title: "Palkkio työhaastatteluun osallistumisesta",
-			desc: "PauPau maksaa tilillesi palkkion osallistumisesta työhaastatteluun. Varmistat palkkiosi vastaamalla työantajan tyytyväisyyskyselyyn. ",
+			title: "Ipsum lorem doloris maximus",
+			desc: "Ipsum lorem doloris maximus",
 			icon: <TrophyIcon />,
 		},
 	],

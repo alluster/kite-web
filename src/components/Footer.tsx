@@ -4,8 +4,11 @@ import React from "react";
 import { Container } from "@/components/Container";
 
 export function Footer() {
-  const navigation = ["Yrityksille", "Työnhakijoille", "Yhteistyökumppanit"];
-  const legal = ["Käyttöehdot", "Yksityisyydensuoja", "Rekisteriote"];
+	const navigation = [
+		"About",
+		"What is RFP",
+		"Using Kite"
+	  ];  const legal = ["Privacy", "Legal"];
   return (
     <div className="relative">
       <Container>
@@ -24,13 +27,13 @@ export function Footer() {
                   height="32"
                   className="w-8"
                 />
-                <span>PauPau</span>
+                <span>Kite</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-             PauPau on palvelu, jonka avulla saat yrityksellesi parhaat työnhakijat. Parannamme rekryprosessiasi maksamalla haastatteluun kutsutuille työnhakioillesi palkkion.
-            </div>
+			Ipsum lorem doloris maximus          
+			  </div>
 
            
           </div>
@@ -97,7 +100,7 @@ export function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © 2024 PauPau.
+          Copyright © 2024 Kite Solutions.
     
         </div>
       </Container>

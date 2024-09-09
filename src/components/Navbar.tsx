@@ -6,9 +6,9 @@ import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation = [
-    "Yrityksille",
-    "Työnhakijoille",
-    "Yhteistyökumppanit"
+    "About",
+    "What is RFP",
+    "Using Kite"
   ];
 
   return (
@@ -31,13 +31,13 @@ export const Navbar = () => {
                       />
                     </span>
                     <span>
-					<Image
+					{/* <Image
                         src="/img/logo_text.svg"
                         alt="N"
                         width={150}
                         height={32}
                         className="w-20"
-                      />
+                      /> */}
 
 					</span>
                   </span>
@@ -74,7 +74,7 @@ export const Navbar = () => {
                       </Link>
                     ))}
                     <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-customLila rounded-md lg:ml-5">         
-                        Aloita käyttö
+                        Start using Kite
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -98,7 +98,7 @@ export const Navbar = () => {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="/" className="px-6 py-2 text-white bg-customLila rounded-md md:ml-5">
-              Alota käyttö
+              Start using Kite
           </Link>
 
           <ThemeChanger />

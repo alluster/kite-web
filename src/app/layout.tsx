@@ -11,8 +11,8 @@ import { PopupWidget }  from "@/components/PopupWidget";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PauPau",
-  description: "Parannamme yrityksesi rekryprosessia!",
+  title: "Kite",
+  description: "Kite for RFP Processes",
 };
 
 export default function RootLayout({
