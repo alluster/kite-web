@@ -43,7 +43,6 @@ export const Hero = () => {
               className={"object-cover"}
               alt="Hero Illustration"
               loading="eager"
-              placeholder="blur"
             />
           </div>
         </div>
