@@ -5,10 +5,10 @@ import { Container } from "@/components/Container";
 
 export function Footer() {
 	const navigation = [
-		"About",
-		"What is RFP",
-		"Using Kite"
-	  ];  const legal = ["Privacy", "Legal"];
+		"",
+	
+	  ];  
+	  const legal = ["", ""];
   return (
     <div className="relative">
       <Container>
@@ -32,7 +32,7 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-			Ipsum lorem doloris maximus          
+			Manage your procurement process.         
 			  </div>
 
            
@@ -100,7 +100,7 @@ export function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © 2024 Kite Solutions.
+          Copyright © 2024 Kite.
     
         </div>
       </Container>

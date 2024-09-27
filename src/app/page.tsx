@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Container>
       <Hero />
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Kite for RFP"
         title="Use Kite for your Tender process"
       >
@@ -29,7 +29,7 @@ With Kite you can do your RFP process.
       </SectionTitle>
 
       <Faq />
-      <Cta />
+      <Cta /> */}
     </Container>
   );
 }

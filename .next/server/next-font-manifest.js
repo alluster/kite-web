@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/aleksanteriheliovaara/Desktop/Projects/Kite/Web/src/app/layout\":[\"static/media/a34f9d1faa5f3315-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/aleksanteriheliovaara/Desktop/Projects/Kite/Web/src/app/layout\":[\"static/media/1a287ef85a9007b6-s.p.woff2\",\"static/media/b2e6e08dc7feb185-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"

@@ -6,9 +6,8 @@ import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation = [
-    "About",
-    "What is RFP",
-    "Using Kite"
+    "",
+   
   ];
 
   return (
@@ -42,7 +41,7 @@ export const Navbar = () => {
 					</span>
                   </span>
                 </Link>
-
+{/* 
                 <Disclosure.Button
                   aria-label="Toggle Menu"
                   className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-customLila focus:customLila focus:bg-white-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700">
@@ -64,7 +63,7 @@ export const Navbar = () => {
                       />
                     )}
                   </svg>
-                </Disclosure.Button>
+                </Disclosure.Button> */}
 
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
@@ -97,9 +96,9 @@ export const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/" className="px-6 py-2 text-white bg-customLila rounded-md md:ml-5">
+          {/* <Link href="/" className="px-6 py-2 text-white bg-customLila rounded-md md:ml-5">
               Start using Kite
-          </Link>
+          </Link> */}
 
           <ThemeChanger />
         </div>

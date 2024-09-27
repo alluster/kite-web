@@ -19,8 +19,9 @@ const config: Config = {
       },
     },
     fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      sans: ["Prompt", ...defaultTheme.fontFamily.sans],
       stock: [defaultTheme.fontFamily.sans],
+	  body: ["Maven Pro", ...defaultTheme.fontFamily.sans], 
     },
   },
   variants: {

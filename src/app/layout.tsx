@@ -1,14 +1,22 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Prompt } from "next/font/google";
+import { Maven_Pro } from "next/font/google";
+
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { PopupWidget }  from "@/components/PopupWidget";
 
 
-const inter = Inter({ subsets: ["latin"] });
+const prompt = Prompt({
+	subsets: ["latin"],
+	weight: "400"
+});
+const mavenPro = Maven_Pro({
+	subsets: ["latin"],
+	weight: "400"
+});
 
 export const metadata: Metadata = {
   title: "Kite",
@@ -22,8 +30,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class">
+      <body className={`${prompt.className} ${mavenPro.className}`}>
+	  <ThemeProvider attribute="class">
           <Navbar />
           <div>{children}</div>
           <Footer />
