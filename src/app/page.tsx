@@ -7,29 +7,35 @@ import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
-import { benefitOne, benefitTwo } from "@/components/data";
+import { benefitOne, benefitTwo, benefitThree } from "@/components/data";
 export default function Home() {
-  return (
-    <Container>
-      <Hero />
-      {/* <SectionTitle
-        preTitle="Kite for RFP"
-        title="Use Kite for your Tender process"
-      >
-		
-With Kite you can do your RFP process.
-      </SectionTitle>
+	return (
+		<Container>
+			<Hero />
+			<div style={{ borderTop: "solid white 1px", maxWidth: "600px", marginLeft: "auto", marginRight: "auto", marginTop: "60px" }}></div>
+			<div id="vision"></div>
+			<SectionTitle
+				id="vision"
+				preTitle="Vision"
+				title="Our Vision"
+				subTitle="We aim to streamline supplier management and RFx processes."
+				paragraph="By automating manual tasks and centralizing data, we allow procurement teams to focus on strategic activities rather than administrative burdens. By offering real-time collaboration, intelligent sourcing, and analytics-driven insights, we empower procurement professionals to make smarter, faster decisions. "
+			/>
+			<div style={{ borderTop: "solid white 1px", maxWidth: "600px", marginLeft: "auto", marginRight: "auto", marginTop: "60px" }}></div>
+			<div id="features"></div>
 
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+			<Benefits data={benefitOne} />
+			<Benefits imgPos="right" data={benefitTwo} />
+			<Benefits data={benefitThree} />
 
-    
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Most asked Questions about Kite
-      </SectionTitle>
+			<div id="faq"></div>
 
-      <Faq />
-      <Cta /> */}
-    </Container>
-  );
+			<SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
+				Most asked Questions about Kite
+			</SectionTitle>
+
+			<Faq />
+			<Cta />
+		</Container >
+	);
 }
