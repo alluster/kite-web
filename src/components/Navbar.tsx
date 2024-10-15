@@ -19,7 +19,7 @@ export const Navbar = () => {
 			to: "#faq",
 		},
 	];
-	const handleSmoothScroll = (event, targetId) => {
+	const handleSmoothScroll = (event: React.MouseEvent<HTMLElement>, targetId: string) => {
 		event.preventDefault();
 		const targetElement = document.querySelector(targetId);
 		if (targetElement) {
